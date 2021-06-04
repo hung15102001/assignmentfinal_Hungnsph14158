@@ -1,15 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Canva-pro</title>
     <link href="Css.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="js.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.green.css" rel="stylesheet">
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+<script>
+     $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+    })
+</script>
 </head>
-<body>
-    <div id="layout">
-        
+
+<body class="font-sans">
+    <div class=" m-auto  px-6 grid grid-cols-12">
+        <header class="fixed col-span-12 my-auto m-0 grid grid-cols-12 border-b-2 border-gray-200 opacity-100 bg-white ">
+           
+            <div class="col-span-1">
+                <img class="my-auto ml-6" src="img/Logo.png" width="80" height="80">
+            </div>
+            <nav class="col-span-3 mt-6">
+                <ul class=" ">
+                    <li class="hv_nav inline-block "><a class="font-bold text-gray-600" href="">Trang chủ
+                           
+                        </a></li>
+                    <li class="hv_nav_1 inline-block  "><a class="no-underline text-gray-600" href="">Giá</a></li>
+                    <li class="hv_nav_1 inline-block  "><a class="no-underline text-gray-600" href="">Mẫu</a>
+                        <div class="hung_2 flex justify-between  border rounded-md absolute text-base 
+                        ">
+                       
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_1.png" alt="">
+                                     </div>
+                                     <ul class="p-0">
+ 
+                                         <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                         
+                                     </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_2.png" alt="">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_3.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_5.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                         
+                                    </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/MIR alison.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                                 <div class=" ">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_6.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                              
+                             </div></li>
+                             <!-- end mau -->
+                    <li class="hv_nav inline-block  "><a class="no-underline text-gray-600" href="">Khám phá</a>
+                        <div class="hung_2 flex justify-between    text-sm  border rounded-md absolute
+                        ">
+                       
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_1.png" alt="">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                     </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_2.png" alt="">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                         
+                                    </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_3.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                         <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                         
+                                    </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_5.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                                 <div class="">
+                                     <div class="">
+                                         <img class="img_dr" src="img/MIR alison.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                                 <div class=" ">
+                                     <div class="">
+                                         <img class="img_dr" src="img/menu_con_6.png" alt="" width="100" height="100">
+                                     </div>
+                                     <ul class="mt-3 p-0">
+ 
+                                        <li class="mt-2 text-left"><a class="no-underline font-bold" href="#">Mạng xã hội ></a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng trên insta</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Câu truyện trên in...</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Trang bìa facebook</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Bài đăng twitter</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-600" href="#">Ghim pinterest</a></li>
+                                        <li class="mt-2 text-left"><a class="no-underline text-gray-400" href="#">Xem thêm ></a></li>
+                                        
+                                    </ul>
+                                 </div>
+                              
+                             </div></li>
+                             <!-- end khám phá -->
+                </ul>
+            </nav>
+            <!-- end nav -->
+            <section class="col-span-5  my-auto">
+                <button class="absolute p-2">
+                    <i class="fas fa-search  text-2xl "></i>
+                </button>
+                <input class="pl_holder text-left border rounded-md border-gray-400 h-10 w-full " type="text"
+                    placeholder="Tìm kiếm canva" value>
+            </section>
+            <section class="col-span-1 my-auto ml-4">
+                <i class="far fa-question-circle ml-4 text-2xl"></i>
+                <i class="fas fa-cog ml-4 text-2xl"></i>
+
+            </section>
+            <section class="col-span-1 my-auto ml-6">
+                <button class="border rounded-md font-bold text-white bg-blue-400 h-10 w-full  mr-3 "><span>Tạo
+                        thiết kế</span></button>
+            </section>
+
+            <div class="col-span-1 my-auto ml-4 ml-8">
+                <img class="" src="img/email.png" alt="" width="70" height="70">
+            </div>
+      
+        </header>
+        <!-- end header -->
+        <div class="grid grid-cols-12 col-span-12">
+
+            <aside class="col-span-2 ">
+                <div class="as_fx grid grid-rows-7 gap-4 col-span-1">
+                    <section class="sc">
+                        <i class="fas fa-home text-2xl ml-3 mt-1"></i>
+                        <button class="ml-4 font-bold " type="button">Được đề xuất cho bạn</button>
+                    </section>
+                    <section class="sc">
+                        <i class="fas fa-border-all text-2xl ml-3 mt-1 "></i>
+                        <button class="ml-4 " type="button">Tất cả thiết kế</button>
+                    </section>
+                    <section class="sc">
+                        <i class="fas fa-user-friends text-1xl ml-3 mt-1"></i>
+                        <button class="ml-4 " type="button">Đã chia sẻ với bạn</button><span>
+                    </section>
+                    <section class="sc">
+                        <i class="fab fa-wordpress text-2xl ml-3 mt-1"></i>
+                        <button class="ml-4 " type="button">Bộ thương hiệu</button>
+                    </section>
+                    <section class="sc">
+                        <i class="fas fa-object-group text-2xl ml-3 mt-1"></i>
+                        <button class="ml-4 " class="" type="button">Tạo nhóm</button>
+                    </section>
+                    <section class="sc">
+                        <i class="far fa-folder-open text-2xl ml-3 mt-1"></i>
+                        <button class="ml-4 " type="button">Tất cả thư mục</button>
+                    </section>
+                    <section class="sc">
+                        <i class="far fa-trash-alt text-2xl ml-3 mt-1"></i>
+
+                        <button class="ml-4 " type="button">Thùng rác</button>
+                    </section>
+                </div>
+            </aside>
+            <!-- end aside -->
+
+            <main class="col-span-10  mt-32 mx-4">
+                <div class="img_main">
+
+                    <div class="text-right mr-4">
+                        <button class="bt_1 mt-2 font-bold text-white bg-gray-300" type="button">Cỡ tùy chỉnh</button>
+                    </div>
+                    <div class="thiet_ke  text-center">
+                        <p class="text-3xl font-bold text-yellow-100">Thiết kế mọi thể loại</p>
+                    </div>
+                    <section class="flex justify-between mx-40 mt-12">
+                        <div class="cycle">
+                            <i class="far fa-star text-3xl mt-4"></i>
+                            <p class="mt-6">Dành cho bạn</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="far fa-file-powerpoint text-3xl  mt-4"></i>
+                            <p class="mt-6"> Thuyết trình</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="far fa-thumbs-up text-3xl mt-4"></i>
+                            <p class="mt-6">Mạng xã hội</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="fab fa-youtube text-3xl mt-4"></i>
+                            <p class="mt-6">Video</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="fas fa-photo-video text-3xl  mt-4"></i>
+                            <p class="mt-6">Sản phẩm in</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="fas fa-search-dollar  text-3xl  mt-4"></i>
+                            <p class="mt-6">Tiếp thị</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="fas fa-briefcase text-3xl  mt-4"></i>
+                            <p class="mt-6">Văn phòng</p>
+                        </div>
+                        <div class="cycle">
+                            <i class="fas fa-ellipsis-h text-3xl  mt-4"></i>
+                            <p class="mt-6">Thêm</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="sl_big">
+               
+               
+                <div class="img_sl flex justify-between  owl-carousel owl-theme ">
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Hình nền</p>
+                        <img id="anh" class="im_1" src="img/sl_8.jpg" alt="">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Bản thuyết trình</p>
+                        <img id="anh" class="im_1"  src="img/sl_2.png">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Video</p>
+                        <img id="anh" class="im_1"  src="img/sl_3.jpg">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Thiết kế </p>
+                        <img id="anh" class="im_1"  src="img/sl_4.jpg">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Chỉnh sửa ảnh</p>
+                        <img id="anh" class="im_1"  src="img/sl_7.jpg.crdownload">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Áp phích</p>
+                        <img id="anh" class="im_1"  src="img/sl_9.jpg.crdownload">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Bài đăng instagram</p>
+                        <img id="anh" class="im_1"  src="img/menu_con_6.png">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Bài đăng fb</p>
+                        <img id="anh" class="im_1"  src="img/MIR alison.png">
+                    </div>
+                    <div class="im">
+                        <p class="ml-20 text-gray-600 text-1xl font-bold">Poster</p>
+                        <img id="anh" class="im_1"  src="img/ct_3.png">
+                    </div>
+                    
+              
+            </div>
+            <!-- <div class="sl_clic  ">
+                <section class=" flex justify-between   ">
+                    <button class="bt " type="button" name="button" onclick="prev()"> < </button>
+                    <button class="bt_2 " type="button" name="button" onclick="next()">></button>
+                </section>
+                end_clix
+
+            </div> -->
+            </div>
+                <!-- end slide -->
+                <section class="">
+                    <div class="mt-8">
+                        <span class="font-bold text-2xl">Thiết kế của bạn</span>
+                    </div>
+                    <div class="grid grid-cols-6 mt-8">
+                        <div class="">
+                            <div class="img_div_ct  "><img class="img_ct" src="img/ct_1.png" alt=""></div>
+                            <section class="mt-2">
+                                <input type="text" value="Thiết kế không tên">
+                            </section>
+                        </div>
+                        <div class="">
+                            <div  class="img_div_ct"><img class="img_ct" src="img/ct_3.png" alt=""></div>
+                            <section class="mt-2">
+                                <input type="text" value="Bài đăng insta...">
+                            </section>
+                        </div>
+                        <div class="">
+                            <div  class="img_div_ct "><img class="img_ct" src="img/menu_con_6.png" alt=""></div>
+                            <section class="mt-2">
+                                <input type="text" value="Hồng ngọt ngào">
+                            </section>
+                        </div>
+                        <div class="">
+                            <div  class="img_div_ct"><img class="img_ct" src="img/ct_4.png" alt=""></div>
+                            <section class="mt-2">
+                                <input type="text" value="Avata">
+                            </section>
+                        </div>
+                        <div class="">
+                            <div  class="img_div_ct"><img class="img_ct" src="img/ct_5.png" alt=""></div>
+                            <section class="mt-2 ">
+                                <input class="" type="text" value="desktop">
+                            </section>
+                        </div>
+                    </div>
+                </section>
+
+              
+            </main>
+            <!-- end main -->
+
+        </div>
+
     </div>
+
 </body>
+
 </html>

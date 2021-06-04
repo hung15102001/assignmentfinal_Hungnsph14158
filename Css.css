@@ -1,0 +1,143 @@
+
+
+/* ul li:hover .menu_con{
+    display: block;
+   
+} */
+.hung_2{
+    visibility: hidden ;
+    position: fixed;
+    background: white;
+    width: 1072px;
+    height: 392px;
+    padding: 12px;
+    margin-top: 1px;
+
+
+}
+ul li:hover .hung_2{
+   visibility: visible;
+}
+
+.img_main{
+    background-image: url(img/bg.jpg);
+    height: 250px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.bt_1{
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgba(209, 213, 219);
+    border-radius: 8px;
+}
+.thiet_ke{
+    margin: -10px;
+}
+.cycle{
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color:  rgba(224, 231, 255);
+}
+p{
+    
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.img_div_ct{
+    border: 1px solid rgba(224, 231, 255);
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.img_ct{
+    width: 100%;
+    height: auto;
+    border-radius:10%;
+    -moz-border-radius:10%;
+    -webkit-border-radius:10%;
+    padding: 10px;
+    
+}
+.pl_holder{
+    padding-left: 45px;
+}
+.as_fx{
+    position: fixed;
+    background: white;
+    margin-top: 132px;
+}
+.sc:hover{
+    background: rgba(229, 231, 235);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+.sc{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.img_dr{
+    width: 100px;
+    height: auto;
+    border-radius:10%;
+    -moz-border-radius:10%;
+    -webkit-border-radius:10%;
+    
+}
+.hv_nav:hover{
+    background: rgba(229, 231, 235);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.hv_nav{
+    width: 100px;
+    height: 30px;
+   text-align: center;
+    font-size: 16px;
+}
+.hv_nav_1:hover{
+    background: rgba(229, 231, 235);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+.hv_nav_1{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    
+}
+
+
+/* slide*/
+
+#anh{
+    width: 192px;
+    height: 144px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+.im{
+    margin-top: 20px;
+    padding: 10px;
+
+    
+}
+.sl_big{
+    background: rgba(235, 245, 255);
+    height: 220px;
+}
