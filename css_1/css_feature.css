@@ -174,8 +174,8 @@ footer ul li a:hover{
     font-weight: bold;
     margin-top: 15px;
 }
-.nd button:hover{
-    background: rgb(176, 75, 248);
+.nd_main button:hover{
+    background: rgb(184, 96, 247);
 }
 .nd_text h5{
     color: rgb(153, 152, 152);
