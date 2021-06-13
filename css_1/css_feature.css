@@ -1,0 +1,179 @@
+
+.index_1{
+    visibility: hidden ;
+    position: fixed;
+    background: white;
+    width: 544px;
+    height: 350px;
+    padding: 12px;
+}
+.li_hv:hover{
+ border-radius: 5px;
+}
+ul li:hover .index_1{
+    visibility:visible ;
+}
+.img_dr{
+    width: 150px;
+    height: 102px;
+    border-radius:10px;
+    /* -moz-border-radius:10%;
+    -webkit-border-radius:10%; */
+}
+.login_1{
+    width: 90px;
+    height: 25px;
+}
+
+.pl_holder{
+    padding-left: 45px;
+}
+.in_search{
+    width: 800px;
+    background: white;
+    color: white;
+}
+.hv_nav:hover{
+    background: rgb(243, 237, 237);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.hv_nav{
+    width: 100px;
+    height: 30px;
+   text-align: center;
+    font-size: 16px;
+    
+}
+.hv_nav_2{
+    width: 100px;
+    height: 30px;
+   text-align: center;
+    font-size: 16px;
+    
+}
+
+.hv_nav_1{
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.hv_nav_1:hover{
+    background: rgb(243, 237, 237);
+}
+.i_hv_big{
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+.i_hv:hover{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background: rgba(229, 231, 235);
+}
+.nav_1{
+    overflow-x: visible;
+    position: relative;
+    /* width: 100%; */
+}
+
+.hd_cl{
+   
+    width: 100%;
+}
+.text_b{
+    background: rgb(247, 234, 163);
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+.login_2{
+    width: 90px;
+    height: 40px;
+}
+
+/* .img_in{
+    position: relative;
+    display: block;
+} */
+.nd_in{
+    width: 1284px;
+    height: 344px;
+    background-image: url(bg_img/bg_2.JPG);
+    border-radius: 10px;
+    border: 1px solid rgb(189, 186, 186);
+}
+
+.nd_in button{
+    width: 150px;
+    height: 40px;
+    background: rgb(157, 80, 245);
+    color: white;
+}
+.nd_in button:hover{
+    background: rgb(174, 116, 241);
+}
+.nd_in h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.mn_bt:hover p{
+    text-decoration: underline;
+}
+
+
+/* end hd */
+.ft_1{
+    border-top: 1px solid rgb(160, 148, 148);
+    border-bottom: 1px solid rgb(160, 148, 148);
+    width: 100%;
+ 
+}
+
+.bt_ft{
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+footer ul li a:hover{
+    color: blue;
+}
+/* end ft */
+.nd img{
+    border-radius: 10px;
+    width: 560px;
+    height: auto;
+}
+.nd_text{
+    width: 50%;
+    height: auto;
+    
+}
+.nd_text h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nd_text span{
+    color: rgb(136, 135, 135);
+}
+.nd_main button{
+    background: rgb(168, 51, 252);
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.nd_text h5{
+    color: rgb(153, 152, 152);
+}
