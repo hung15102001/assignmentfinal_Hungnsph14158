@@ -87,6 +87,7 @@ ul li:hover .index_1{
     width: 100%;
 }
 
+
 /* end hd */
 
 #anh{
@@ -218,6 +219,17 @@ p{
 .ab_nd_3{
     height: 270px;
 }
+
+.img_fl_big{
+    overflow: hidden;
+}
+.img_fl{
+    transition: 0.5s all ease-in-out;
+}
+.img_fl:hover{
+    transform: scale(1.1);
+}
+
 /* end main */
 
 .ft_1{
@@ -237,4 +249,31 @@ footer{
 
 footer ul li a:hover{
     color: blue;
+}
+/* media */
+
+@media (min-width:768px){
+    .nd_1_big{
+        display: block;
+    }
+    .layout{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:1023px){
+    .nd_1_big{
+        display: block;
+    }
+    .layout{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:1024px){
+    .nd_1_big{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 32px;
+    }
 }

@@ -128,7 +128,18 @@ ul li:hover .index_1{
 .mn_bt:hover p{
     text-decoration: underline;
 }
-
+.img_dr_1{
+    overflow: hidden;
+    display: block;
+}
+.img_dr_1:hover img{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+.hv_nav_2:hover{
+    background-color: rgb(230, 224, 224);
+    border-radius: 5px;
+}
 
 /* end hd */
 .ft_1{
@@ -147,6 +158,9 @@ ul li:hover .index_1{
 footer ul li a:hover{
     color: blue;
 }
+
+
+
 /* end ft */
 .nd img{
     border-radius: 10px;
